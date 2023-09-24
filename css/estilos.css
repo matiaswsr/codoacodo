@@ -1,0 +1,95 @@
+
+
+header{
+    background-image: url("../img/ba1.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 700px; 
+    position: relative;
+    text-align: right;   
+}
+
+/* Creo una imagen oscura sobre el header*/
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    position: absolute; 
+    top: 20rem;
+    right: 7rem;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header p {
+    position: absolute;
+    top: 23rem;
+    right: 7rem;
+    color: white;
+    font-size: 1.025rem;
+    max-width: 30rem;
+}
+
+/* Estilos para los botones del header*/
+.botones {
+    position: absolute;
+    top: 34rem;
+    right: 7rem;
+}
+#btn-transparente {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-right: 0.5rem;
+}
+#btn-transparente:hover {
+    background-color: white;
+    color: black;
+    margin-right: 0.5rem;
+}
+
+#imagenFondo {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#imagenFondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#sectionOctubre {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: #1E4F6D;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#listaFooter{
+    list-style: none;
+    padding: 0;
+}
+
+#listaFooter li{
+    float: left;
+    text-align: center;
+    margin-right: 3rem;
+    margin-top: 2rem;
+}
