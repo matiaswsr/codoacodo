@@ -93,3 +93,11 @@ footer{
     margin-right: 3rem;
     margin-top: 2rem;
 }
+
+.border-celeste{
+    border: 1px solid aqua;
+}
+
+.border-yellow{
+    border: 1px solid rgb(255, 196, 0);
+}
